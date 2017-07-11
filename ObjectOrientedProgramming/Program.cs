@@ -42,6 +42,50 @@ namespace ObjectOrientedProgramming
             //       weight- parks         weight-moves foward       weight-rings
             //       doors- moves foward   pedals-moves back         keyboard-sends
             //       tires-moves back      tires-rides on one wheel  screen size-receives
+
+
+            Superhero firstHero = new Superhero();
+            //firstHero.StrengthLevel = 100;
+            //firstHero.HasCape = true;
+
+            //firstHero.BattleNemesis();
+            //Console.WriteLine(firstHero.HasCape);
+            //Console.WriteLine(firstHero.StrengthLevel);
+
+            Superhero secondHero = new Superhero("Super Jerome");
+            //Console.WriteLine(secondHero.StrengthLevel);
+
+            //secondHero.AllyGained();
+            //Console.WriteLine(secondHero.StrengthLevel);
+
+            Superhero thirdHero = new Superhero("Doctor Evil", "black unitard", "the Best", 1000, true);
+
+            thirdHero.BattleNemesis();
+            Console.WriteLine("Oh no! Now my costume is " + thirdHero.Costume);
+            Console.WriteLine("And now my strength has diminished to " + thirdHero.StrengthLevel);
+
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
