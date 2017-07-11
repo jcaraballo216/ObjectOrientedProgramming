@@ -18,7 +18,24 @@ namespace ObjectOrientedProgramming
 
             //the format we use to instantiate an object looks like this:
             //ClassName objectName = new ClassName();
-            Cat mittens = new Cat();
+            //Cat firstCat = new Cat();
+
+            //firstCat.Name = "Mittens";
+            ////Console.WriteLine(firstCat.Age);
+
+            //Cat secondCat = new Cat("Oz", 3, "orange and white");
+            //secondCat.Name = "Ozzy";
+            //Console.WriteLine(secondCat.Name);
+            //Console.WriteLine(secondCat.Age);
+            //secondCat.Eat();
+
+            Dog firstDog = new Dog("long", 3, 5, 10);
+            Console.WriteLine(firstDog.HairLength);
+            Console.WriteLine(firstDog.Height);
+            Console.WriteLine(firstDog.RunningSpeed);
+            Console.WriteLine(firstDog.Weight);
+
+
             //To create a new object, we use a special method called a CONSTRUCTOR
 
             //Thinking about object in real life, create three examples of objects
