@@ -25,6 +25,10 @@ namespace ObjectOrientedProgramming
             get { return this.name; }
             set { this.name = value; }
         }
+        public int Age
+        {
+            get { return this.age; }
+        }
 
         //We also have behaviors.
         //Methods - repeatable/reusable sections of code - Actions
@@ -36,6 +40,8 @@ namespace ObjectOrientedProgramming
         {
             //This is an example of a default contructor. A default constructor takes no arguments/parameters.
         }
+        //Can have as many constructors as you need as long as they each have a unique signature.
+        //By signature, I mean the parameters in the parentheses after the constructor name.
         public Cat(string name, int age, string furColor)
         {
             this.name = name;
