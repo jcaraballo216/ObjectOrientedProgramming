@@ -10,7 +10,7 @@ namespace ObjectOrientedProgramming
     {
         //Create a Dog class
         //Your dog class should have fields for hair length, height, running speed, and weight
-        
+
 
         //creating fields
         private string hairLength;
@@ -50,7 +50,7 @@ namespace ObjectOrientedProgramming
         //Your class should have the following behaviors: run,bark,potty,cuddle
         public int Run()
         {
-            Console.WriteLine("Go doggy go.");
+            Console.WriteLine("Go doggy go");
             RunningSpeed -= 1;
             return RunningSpeed;
         }
@@ -60,20 +60,21 @@ namespace ObjectOrientedProgramming
         }
         public void Potty()
         {
-            if(crap == true)
+            if (crap == true)
             {
-                Console.WriteLine("Your dog just made a mess.");
+                Console.WriteLine("Your dog just made a mess");
             }
             else
             {
                 Console.WriteLine("Your dog has to relieve itself.");
             }
+        }
             public void Cuddle()
         {
             Console.WriteLine("Awww, doggo is so sweet.");
         }
-        }
-
-
     }
+
+
 }
+

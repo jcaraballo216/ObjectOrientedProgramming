@@ -29,11 +29,7 @@ namespace ObjectOrientedProgramming
             //Console.WriteLine(secondCat.Age);
             //secondCat.Eat();
 
-            Dog firstDog = new Dog("long", 3, 5, 10);
-            Console.WriteLine(firstDog.HairLength);
-            Console.WriteLine(firstDog.Height);
-            Console.WriteLine(firstDog.RunningSpeed);
-            Console.WriteLine(firstDog.Weight);
+
 
 
             //To create a new object, we use a special method called a CONSTRUCTOR
